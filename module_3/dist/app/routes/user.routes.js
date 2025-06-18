@@ -9,6 +9,6 @@ router.get('/', (req, res) => {
     res.send('All users');
 });
 router.post('/', (req, res) => {
-    res.send('Create users');
+    res.send('Create users.....');
 });
 exports.default = router;

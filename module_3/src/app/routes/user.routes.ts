@@ -6,7 +6,7 @@ router.get('/', (req:Request, res:Response)=>{
 })
 
 router.post('/', (req:Request, res:Response)=>{
-    res.send('Create users')
+    res.send('Create users!')
 })
 
 
